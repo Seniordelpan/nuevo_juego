@@ -13,7 +13,7 @@ _data = {
 polygon = PoolVector2Array( -2, 194, 384, 194, 384, 2243, -2, 2243 )
 
 [sub_resource type="OccluderPolygon2D" id=6]
-polygon = PoolVector2Array( 640, 258, 640, 2178, 1600, 2178, 1601, 1474, 1664, 1474, 1664, 1408, 1471, 1408, 1472, 1026, 1664, 1026, 1664, 962, 1600, 962, 1600, 258 )
+polygon = PoolVector2Array( 640, 258, 640, 2178, 1600, 2178, 1600, 1474, 1664, 1474, 1664, 1410, 1472, 1410, 1472, 1026, 1664, 1026, 1664, 962, 1600, 962, 1600, 258 )
 
 [sub_resource type="OccluderPolygon2D" id=11]
 polygon = PoolVector2Array( 0, 2434, 0, -317, -319, -317, -319, 2753, 1, 2753 )
@@ -28,6 +28,7 @@ polygon = PoolVector2Array( 3392, 2434, 3711, 2434, 3712, -62, 3392, -62, 3392, 
 polygon = PoolVector2Array( 3711, -318, -65, -318, -65, 3, 3711, 1 )
 
 [sub_resource type="OccluderPolygon2D" id=15]
+polygon = PoolVector2Array( 2752, 2178, 1856, 2178, 1856, 1474, 1792, 1474, 1792, 1410, 1984, 1410, 1984, 1026, 1792, 1026, 1792, 962, 1856, 962, 1856, 258, 2752, 258 )
 
 [sub_resource type="ConvexPolygonShape2D" id=1]
 points = PoolVector2Array( 160, 32, 0, 32, 0, 0, 160, 0 )
@@ -120,14 +121,14 @@ points = PoolVector2Array( 64, 64, 0, 64, 0, 0, 64, 0 )
 [node name="World" type="Node2D"]
 
 [node name="ColorRect" type="ColorRect" parent="."]
-margin_left = -5.0
-margin_top = 4.0
-margin_right = 3510.0
-margin_bottom = 2557.0
+margin_left = -6.0
+margin_top = 13.0
+margin_right = 3509.0
+margin_bottom = 2566.0
 color = Color( 0.498039, 0.470588, 0.470588, 1 )
 
 [node name="enemigo" parent="." instance=ExtResource( 4 )]
-position = Vector2( 1106, 115 )
+position = Vector2( 1098, 123 )
 
 [node name="Path2D" type="Path2D" parent="enemigo"]
 curve = SubResource( 10 )
